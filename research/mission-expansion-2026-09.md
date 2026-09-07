@@ -240,6 +240,64 @@ Google Play도 의미 있는 기능과 사용자 경험을 요구한다. AppTech
 - [Google Play 기능·콘텐츠 정책](https://support.google.com/googleplay/android-developer/answer/9898783?hl=en)
 - [Google Play 광고 정책](https://support.google.com/googleplay/android-developer/answer/9857753?hl=en-GB)
 
+## 연동 신청 가능한 업체
+
+아래는 사례 앱이 아니라 **퍼블리셔 가입, 제휴 문의 또는 데모 신청 경로가 공식적으로
+공개된 업체**다. `신청 가능`은 AppBack의 Star 보상 구조나 한국 트래픽이 승인되었다는 뜻이
+아니다. 실제 연동 전에는 보상 정책, 공급 물량, 정산과 개인정보 조건을 서면으로 확인해야 한다.
+
+### 우선 문의 대상
+
+| 업체 | 적용 후보 | 공식 신청·문의 | 기술 자료 | AppBack 관점 |
+| --- | --- | --- | --- | --- |
+| Buzzvil | 국내 오퍼월, 앱·참여형 캠페인 | [제휴 문의](https://www.buzzvil.com/company/contact_us) | [BuzzBenefit](https://www.buzzvil.com/en/monetize/buzzbenefit), [개발 문서](https://docs.buzzvil.com/) | 국내 사업·운영 가능성과 콘텐츠형 맞춤 캠페인을 가장 먼저 문의할 대상 |
+| AudioMob | 보상형 오디오 광고 | [영업·파트너십 문의](https://audiomob.com/contact) | [SDK·API 연동](https://audiomob.com/integrations) | 비게임 앱과 한국 인벤토리 지원 여부, 기프티콘 전환형 Star 허용 여부를 먼저 확인 |
+| Odeeo | 보상형 오디오 광고 | [데모·제휴 신청](https://odeeo.io/demo-request) | [개발자 안내](https://odeeo.io/developers) | 게임 중심 상품이므로 AppTech 같은 비게임 앱 승인과 한국 공급량 확인 필요 |
+| Brightcove | 자체 계약 영상 호스팅·재생·분석 | [데모 신청](https://www.brightcove.com/get-demo) | [Video Cloud](https://www.brightcove.com/en/products/video-cloud/) | 광고 캠페인을 공급하는 곳이 아니라 전문 영상 미션의 재생 인프라 후보 |
+| Mux | 자체 계약 영상 API·플레이어·분석 | [가입·문의](https://www.mux.com/) | [개발 문서](https://www.mux.com/docs) | 광고 캠페인을 공급하지 않으며, 직접 수주한 영상의 전송·시청 측정용 후보 |
+
+추천 접촉 순서는 `Buzzvil → AudioMob·Odeeo → Brightcove·Mux`다. 먼저 국내 캠페인 공급과
+보상 적합성을 확인하고, 직접 수주한 전문 영상 미션이 확정되면 영상 인프라를 비교한다.
+
+### 기존 미션 공급 확대 후보
+
+| 업체 | 적용 후보 | 공식 신청·문의 | 기술 자료 | 확인할 점 |
+| --- | --- | --- | --- | --- |
+| ayeT Studios | 오퍼월, 게임, 보상형 광고, 설문 | [퍼블리셔 계정 가입](https://ayetstudios.com/account/login) | [Publisher API](https://www.ayetstudios.com/openapi/publisher-doc) | 가입 화면에서 Publisher 계정 선택; 한국 물량과 현금성 보상 정책 확인 |
+| AdGem | 게임·오퍼월 | [퍼블리셔 시작 안내](https://docs.adgem.com/docs/get-started) | [개발 문서](https://docs.adgem.com/) | 앱 등록·검토 후 연동; 국내 공급량과 정산 조건 확인 |
+| adjoe Playtime | 플레이타임형 게임 보상 | [수익화 제휴 문의](https://adjoe.io/contact-us/) | [Playtime 소개](https://adjoe.io/solutions/monetize-your-app/playtime/), [개발 문서](https://docs.adjoe.io/) | 문의 폼에서 Monetize와 Playtime 선택; 기존 게임 미션과 중복 여부 검토 |
+| Digital Turbine | 오퍼월 | [수익화 제휴 문의](https://www.digitalturbine.com/contact-us) | [Offer Wall 문서](https://docs.digitalturbine.com/), [앱 등록 안내](https://docs.digitalturbine.com/dt-console/app-management/adding-a-new-app/adding-an-app) | Publisher 계정 발급과 Offer Wall 사용 가능 여부를 문의하고 보상 제한 확인 |
+| CPX Research | 설문 | [퍼블리셔 가입](https://publisher.cpx-research.com/index.php?page=register) | [CPX Research](https://www.cpx-research.com/main/en/) | 패널 품질, 한국 설문 재고, 중도 탈락 보상과 개인정보 이전 확인 |
+| BitLabs | 설문 | [파트너 신청](https://bitlabs.ai/contact) | [가입·설정 가이드](https://developer.bitlabs.ai/docs/sign-up-set-up) | 앱/웹 심사, S2S 콜백, 한국 패널과 개인정보 처리 확인 |
+| TheoremReach | 설문 | [퍼블리셔 가입](https://info.theoremreach.com/sign-up/) | [Publisher 문서](https://docs.theoremreach.com/publisher) | 자체 포인트 체계와 개인정보 동의가 전제이므로 Star 정책 호환성 확인 |
+
+### 라디오·팟캐스트 광고 제휴 후보
+
+| 업체 | 영역 | 공식 문의 | AppBack 관점 |
+| --- | --- | --- | --- |
+| AdsWizz | 디지털 오디오·팟캐스트 광고 기술 | [고객·파트너 문의](https://www.adswizz.com/contact-us/) | 셀프서비스 SDK 신청보다 사업 제휴형에 가까워 한국 캠페인과 보상 청취 지원을 별도 협의해야 함 |
+| Triton Digital | 스트리밍 라디오·팟캐스트 수익화 | [파트너십 문의](https://www.tritondigital.com/contact-us) | 방송 송출·광고 시장 연동 업체로, AppBack 보상형 청취 상품은 맞춤 제휴 대상 |
+| Acast | 팟캐스트 광고·수익화 | [광고주 문의](https://www.acast.com/en/advertise/home), [퍼블리셔 수익화](https://www.acast.com/en/monetize) | 팟캐스트 광고·콘텐츠 계약용 후보이며 공개 보상형 SDK로 보지 않음 |
+
+TikTok Lite, Mode, Fountain, Media Rewards, Zogo, Evidation과 Fetch는 시장 모델을 이해하기
+위한 사례다. 현재 조사에서 AppBack이 바로 신청할 수 있는 공개 퍼블리셔 연동 경로까지
+확인된 공급사로 분류하지 않았다.
+
+### 제휴 신청 전에 보낼 공통 질문
+
+1. 대한민국 트래픽을 받는지, 월간 최소 사용자·노출 조건과 예상 공급량은 얼마인지
+2. Android와 iOS를 모두 지원하며 비게임 리워드 앱도 승인하는지
+3. 기프티콘으로 전환 가능한 `Star` 지급을 허용하는지
+4. 서버 간 완료 콜백, 서명 검증, 멱등 키, 취소·차감 콜백을 제공하는지
+5. 부정 참여 판정, 광고주 미승인, 지급 취소와 사용자 이의 제기 책임이 누구에게 있는지
+6. 정산 통화·주기·최소 금액, 세금, 환율과 보상 원가를 포함한 예상 순마진은 얼마인지
+7. 국외 이전을 포함해 어떤 개인정보·광고 식별자를 수집하고 보관·삭제하는지
+8. 오디오의 경우 백그라운드 재생, 음량 감지와 콘텐츠 권리를 어떻게 처리하는지
+
+신청서에는 `광고를 켜두면 현금성 보상을 주는 앱`이 아니라, AppBack의 캠페인 유형,
+완료 검증, 일일 한도, 부정 방지와 Star 교환 구조를 정확히 설명한다. 업체의 서면 허용을
+받기 전에는 SDK를 운영 환경에 넣거나 사용자에게 해당 미션을 노출하지 않는다.
+
 ## 1차 도입 우선순위
 
 ### A. 바로 검토: 영상 학습형
